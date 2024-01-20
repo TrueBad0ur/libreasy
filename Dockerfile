@@ -8,9 +8,6 @@ FROM alpine:3.19
 WORKDIR /app
 
 COPY --from=builder /build/libreasy libreasy
-COPY assets assets
-COPY css css
-COPY templates templates
 
 ENTRYPOINT ["/app/libreasy"]
 EXPOSE 8080

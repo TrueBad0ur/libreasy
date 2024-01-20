@@ -5,6 +5,9 @@ services:
     container_name: libreasy
     ports:
       - "127.0.0.1:8080:8080"
-    image: truebad0ur/libreasy:v0.2.0
+    image: truebad0ur/libreasy:v0.2.1
     volumes:
       - ./books:/app/books
+      - ./assets:/app/assets
+      - ./css:/app/css
+      - ./templates:/app/templates
