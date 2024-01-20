@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  libreasy:
+    build: .
+    container_name: libreasy
+    ports:
+      - "127.0.0.1:8080:8080"
+    image: truebad0ur/libreasy:v0.2.0
+    volumes:
+      - ./books:/app/books

@@ -21,7 +21,7 @@ func main() {
 	fs = http.FileServer(http.Dir("./books"))
 	http.Handle("/books/", http.StripPrefix("/books", fs))
 
-	err := http.ListenAndServe("127.0.0.1:8081", nil)
+	err := http.ListenAndServe(":8080", nil)
 
 	if err != nil {
 		log.Fatal("ListenAndServe: ", err)
