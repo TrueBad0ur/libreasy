@@ -60,9 +60,16 @@ Issues and better html code are also welcome :)
 
 Правки и более хороший html код очень приветствуются :)
 
+## Docker
+```bash
+git clone https://github.com/TrueBad0ur/libreasy.git
+docker compose up --build
+access: 127.0.0.1:8080
+```
+
 ## ToDo
 - [ ] Add devops books
-- [ ] Add docker images / compose
+- [X] Add docker images / compose
 - [ ] MB add pentest shelf
 
 ## Books
