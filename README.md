@@ -12,3 +12,5 @@
 - [X] Mario Hewardt, Daniel Pravat - Advanced Windows Debugging 
 - [X] Дармаван Салихан - BIOS - дизассемблеирование, модификация, программирование
 - [X] Майкл Сикорски, Эндрю Хониг - Вскрытие покажет! Практический анализ вредоносного ПО
+- [X] Massimiliano Tomassoli - Modern Windows Exploit Development
+- [X] Свен Шрайбер - Недокументированные возможности Windows 2000
