@@ -60,6 +60,9 @@ Issues and better html code are also welcome :)
 
 Правки и более хороший html код очень приветствуются :)
 
+## ToDo
+- [ ] Add devops books
+
 ## Books
 
 - [X] Enrico Martignetti - What Makes It Page?: The Windows 7 (x64) Virtual Memory Manager
