@@ -81,6 +81,7 @@ access: 127.0.0.1:8080
 - [X] Pavel Yosifovich - Windows Kernel Programming, Second Edition
 - [X] Павел Йосифович - Работа с ядром Windows 1-ое издание
 - [X] Руссинович М., Соломон Д., Ионеску А., Йосифович П - Внутреннее устройство Windows. 7-е изд
+- [X] Руссинович М., Соломон Д. - Внутреннее устройство Microsoft Windows. 6-е изд, часть 2
 - [X] Крис Касперски, Ева Рокко - Искусство дизассемблирования
 - [X] Крис Касперски, Валентин Холмогоров, Ксения Кирилова - Восстановление данных. Практическое руководство
 - [X] Mario Hewardt, Daniel Pravat - Advanced Windows Debugging 
@@ -90,3 +91,5 @@ access: 127.0.0.1:8080
 - [X] Свен Шрайбер - Недокументированные возможности Windows 2000
 - [X] Алекс Матросов, Евгений Родионов, Сергей Братусь - Руткиты и буткиты. Обратная разработка вредоносных программ и угрозы следующего поколения
 - [X] Хоглунд, Батлер - Руткиты: внедрение в ядро Windows
+- [X] Mark Russinovich - Troubleshooting with the Windows Sysinternals Tools
+- [X] Dennis Andriesse - Practical Binary Analysis: Build Your Own Linux Tools for Binary Instrumentation, Analysis, and Disassembly
