@@ -8,7 +8,7 @@ The database is living in my library website - [図書館.きく.コム](図書�
 
 
 ## Contribute [eng]
-It would be greate if you'd like to contribute a good book
+It would be great if you'd like to contribute a good book
 
 ### What to do?
 Fork and add changes to the following files:
@@ -25,7 +25,7 @@ Fork and add changes to the following files:
     </details>
 </div>
 ```
-3) I'd be greate if you'd also provide the link to the book :)
+3) I'd be great if you'd also provide the link to the book :)
 4) Pull Requst
 
 Issues and better html code are also welcome :)
