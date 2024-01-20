@@ -93,3 +93,4 @@ access: 127.0.0.1:8080
 - [X] Хоглунд, Батлер - Руткиты: внедрение в ядро Windows
 - [X] Mark Russinovich - Troubleshooting with the Windows Sysinternals Tools
 - [X] Dennis Andriesse - Practical Binary Analysis: Build Your Own Linux Tools for Binary Instrumentation, Analysis, and Disassembly
+- [X] Keith D. Cooper, Linda Torczon - Engineering: A Compiler
