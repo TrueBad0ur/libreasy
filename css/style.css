@@ -1,0 +1,42 @@
+body {
+    background-image: url("/assets/background.jpg");
+}
+
+.book {
+    float: left;
+    position: relative;
+    margin: 5px;
+}
+
+.book img {
+    width: 150px;
+    height: 200px;
+    position: relative;
+    z-index: 1;
+}
+
+.book details p {
+    border: 2px solid black;
+    color: white;
+    background-color: rgb(54, 24, 0);
+    width: 500;
+    font-size: 15;
+    position: absolute;
+    z-index: 2;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 10;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border: 2px solid black;
+}
+
+.row-title {
+  background-color: #000;
+  border: 1px solid #000;
+  color: #00ff00;
+  padding: 8px;
+  font-family: courier new;
+}
