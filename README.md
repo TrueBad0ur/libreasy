@@ -96,3 +96,7 @@ access: 127.0.0.1:8080
 - [X] Keith D. Cooper, Linda Torczon - Engineering: A Compiler
 - [X] П.Л. Хижняк - Пишем вирус и антивирус  для совместимых компьютеров
 - [X] Stephanie Domas, Christopher Domas - x86 Software Reverse-Engineering, Cracking, and Counter-Measures
+- [X] Бруно Кардос Лопес, Рафаэль Аулер - LLVM: инфраструктура для разработки компиляторов
+- [X] Ахо Альфред В., Ульман Джеффри Д., Лам Моника С., Сети Рави - Компиляторы: принципы, технологии и инструменты
+- [X] Bill Blunden - The Rootkit Arsenal: Escape and Evasion: Escape and Evasion in the Dark Corners of the System
+- [X] Бруно Кардос Лопес, Рафаэль Аулер - LLVM: инфраструктура для разработки компиляторов
