@@ -94,3 +94,5 @@ access: 127.0.0.1:8080
 - [X] Mark Russinovich - Troubleshooting with the Windows Sysinternals Tools
 - [X] Dennis Andriesse - Practical Binary Analysis: Build Your Own Linux Tools for Binary Instrumentation, Analysis, and Disassembly
 - [X] Keith D. Cooper, Linda Torczon - Engineering: A Compiler
+- [X] П.Л. Хижняк - Пишем вирус и антивирус  для совместимых компьютеров
+- [X] Stephanie Domas, Christopher Domas - x86 Software Reverse-Engineering, Cracking, and Counter-Measures

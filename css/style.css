@@ -26,17 +26,35 @@ body {
 }
 
 .row {
-  display: flex;
-  margin-bottom: 10;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  border: 2px solid black;
+    display: flex;
+    margin-bottom: 10;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border: 2px solid black;
 }
 
 .row-title {
-  background-color: #000;
-  border: 1px solid #000;
-  color: #00ff00;
-  padding: 8px;
-  font-family: courier new;
+    background-color: #000;
+    border: 1px solid #000;
+    color: #00ff00;
+    padding: 8px;
+    font-family: courier new;
+}
+
+/*
+details {
+    cursor: pointer;
+}
+*/
+
+details summary {
+    cursor: pointer;
+}
+
+details p {
+    cursor: text;
+}
+
+details p a {
+    cursor: pointer;
 }
