@@ -1,5 +1,6 @@
 books/*
 !books/.gitkeep
+!books/xakep
 books/xakep/*
 !books/xakep/.gitkeep
 libreasy
