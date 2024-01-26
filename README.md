@@ -74,6 +74,8 @@ access: 127.0.0.1:8080
 
 ## Books
 
+### Reverse Engineering
+
 - [X] Enrico Martignetti - What Makes It Page?: The Windows 7 (x64) Virtual Memory Manager
 - [X] Денис Юричев - Reverse Engineering для начинающих
 - [X] Dmitry Vostokov - Memory Dump Analysis Anthology, Volume1
@@ -100,3 +102,11 @@ access: 127.0.0.1:8080
 - [X] Ахо Альфред В., Ульман Джеффри Д., Лам Моника С., Сети Рави - Компиляторы: принципы, технологии и инструменты
 - [X] Bill Blunden - The Rootkit Arsenal: Escape and Evasion: Escape and Evasion in the Dark Corners of the System
 - [X] Бруно Кардос Лопес, Рафаэль Аулер - LLVM: инфраструктура для разработки компиляторов
+
+
+### Cloud Engineering / DevOps
+
+- [X] Автор Gerard Beekmans. Редакторы Matthew Burgess и Bruce Dubbs. Перевод Иван Лабутин - Linux From Scratch Версия 7.3
+
+
+### Xakep
