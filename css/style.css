@@ -33,6 +33,14 @@ body {
     border: 2px solid black;
 }
 
+.row .book p a {
+    text-decoration: none;
+}
+
+.row .book p a:hover {
+    color: red;
+}
+
 .row-title {
     background-color: #000;
     border: 1px solid #000;
