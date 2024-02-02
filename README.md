@@ -28,6 +28,8 @@ Fork and add changes to the following files:
 3) I'd be great if you'd also provide the link to the book :)
 4) Pull Requst
 
+Compress image before pushing ```jpegoptim --size=100k image.jpg -s```
+
 Issues and better html code are also welcome :)
 
 ## About [ru]
@@ -57,6 +59,8 @@ Issues and better html code are also welcome :)
 ```
 3) Будет также прекрасно, если вы поделитесь ссылкой на книгу :)
 4) Пулл реквест
+
+Картинку предварительно сжать ```jpegoptim --size=100k image.jpg -s```
 
 Правки и более хороший html код очень приветствуются :)
 
