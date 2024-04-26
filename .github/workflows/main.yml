@@ -1,0 +1,39 @@
+---
+name: Deploying website
+run-name: ${{ github.actor }} is deploying Jekyll website
+on: [push]
+jobs:
+  Pull-And-Deploy-New-Code:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Pull updates from github
+        uses: appleboy/ssh-action@v1.0.0
+        with:
+          host: ${{ secrets.IP }}
+          username: ${{ secrets.USERNAME }}
+          key: ${{ secrets.KEY }}
+          port: ${{ secrets.PORT }}
+          script: cd ${{ secrets.PATH }}; git pull
+
+      - name: CI
+        uses: appleboy/ssh-action@v1.0.0
+        with:
+          host: ${{ secrets.IP }}
+          username: ${{ secrets.USERNAME }}
+          key: ${{ secrets.KEY }}
+          port: ${{ secrets.PORT }}
+          script: |
+            cd ${{ secrets.PATH }}
+            export GIT_TAG=$(git describe --tags --abbrev=0)
+            docker build -t truebad0ur/libreasy:$GIT_TAG .
+            echo $DOCKERHUB_PASSWORD | docker login --username trubad0ur --password-stdin
+            docker push truebad0ur/libreasy:$GIT_TAG
+
+      - name: CD
+        uses: appleboy/ssh-action@v1.0.0
+        with:
+          host: ${{ secrets.IP }}
+          username: ${{ secrets.USERNAME }}
+          key: ${{ secrets.KEY }}
+          port: ${{ secrets.PORT }}
+          script: cd ${{ secrets.PATH }}; docker compose up -d
