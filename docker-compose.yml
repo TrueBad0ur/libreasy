@@ -6,7 +6,7 @@ services:
     restart: always
     ports:
       - "127.0.0.1:8080:8080"
-    image: truebad0ur/libreasy:v0.3.0
+    image: truebad0ur/libreasy:v0.3.1
     volumes:
       - ./books:/app/books
       - ./assets:/app/assets
