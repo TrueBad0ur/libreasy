@@ -1,4 +1,4 @@
-# Arhived as moved to yandex cloud object storage
+# Archived as moved to yandex cloud object storage
 
 ## About [eng]
 ### Info
