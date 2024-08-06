@@ -1,3 +1,5 @@
+# Arhived as moved to yandex cloud object storage
+
 ## About [eng]
 ### Info
 Here's the simplest platfrom to keep books: preview, author, title, download button - nothing more
